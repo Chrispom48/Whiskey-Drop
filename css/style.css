@@ -4,10 +4,13 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
+.container-wrapper {
+    background: linear-gradient(#000000, #293d3d);
+    color: whitesmoke;
+}
 
 .container-wrapper--red {
-    background-color: #f05f40;
+    background: linear-gradient(#293d3d, #ffffff);
     color: white;
 }
 
@@ -157,6 +160,7 @@ body {
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
+    text-align:center;
 }
 
 /* Page Headers */
@@ -174,7 +178,7 @@ body {
 /* Quotes */
 
 .quotes .page-header {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 /* Features */
@@ -197,5 +201,5 @@ body {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: rgb(0, 0, 0);
 }
